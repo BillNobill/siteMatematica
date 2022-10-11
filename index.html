@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Quadrática</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/1055102_calculator_calculation_math_mathematics_icon.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="shortcut icon" href="img/space.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/math.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <ul id="logo">
+                <li>
+                    <a id="fx">
+                        <span class="blue"> &#402 (x)</span>
+                    </a>
+                </li>
+            </ul>
+            <ul id="linkancora">
+                <li>
+                    <a href="#oque">
+                        O que é?
+                    </a>
+                </li>
+                <li>
+                    <a href="#resolvendo">
+                        Gráfico da Função
+                    </a>
+                </li>
+                <li>
+                    <a href="src/exercicios.html">
+                        Exercícios
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="title">Função Quadrática</h2>
+        <div id="text">
+            <article id="oque">
+                <div class="center">
+
+                    <h1 class="subtitle" id="oque">O que é?</h1>
+
+                    <p>
+                        <span class="blue">Função Quadrática</span> ou <span class="blue">Função de 2º
+                            grau</span>, é uma função cujo maior expoente da incógnita é igual a <span
+                            class="blue">2</span>,
+                        representada pela seguinte expressão:
+                    </p>
+                    <p>
+                        <span class="formula">&#402(x) = ax<sup>2</sup> + bx + c</span>
+                    </p>
+                    <p>
+                        Onde <span class="blue">a</span>, <span class="blue">b</span> e <span class="blue">c</span> são
+                        números reais e <span class="blue">a</span> ≠ 0 (zero). O coeficiente a deve ser diferente de 0 (zero) pois se
+                        for 0 (zero) a icógnita não existe, não existindo também a concavidade, e por fim deixa de ser uma
+                        função de segundo grau.
+                    </p>
+                    <hr class="menor" noshade>
+                    <p>
+                        <span class="blue">Exemplo:</span>
+                    </p>
+                    <p>
+                        <span class="formula">&#402(x) = 2x<sup>2</sup> + 3x + 5</span>
+                    </p>
+                    <p>
+                        Sendo:
+                    </p>
+                    <p>
+                        a = 2<br>
+                        b = 3<br>
+                        c = 5
+                    </p>
+
+                    <h1 class="subtitle" id="resolvendo"> Como construir o gráfico?</h1>
+                    <section>
+                        <p>
+                            <strong> <span class="blue"> 1- </span> </strong> Determinar a <span class="blue">
+                                concavidade
+                            </span> da parábola;
+                        </p>
+                        <p>
+                            Para determinar a concavidade da parábola, devemos olhar para o <span class="blue"> sinal
+                            </span> do coeficiente <span class="blue"> a</span>.
+                        </p>
+                        <ul>
+                            <li> Se o sinal de a for <span class="blue"> positivo</span>, a concavidade estará voltada
+                                para <span class="blue">cima</span>.</li>
+                            <li> Se o sinal de a for <span class="blue"> negativo</span>, a concavidade estará voltada
+                                para <span class="blue">baixo</span>.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p>
+                            <strong> <span class="blue"> 2- </span> </strong> Determinar os pontos de interseção com o
+                            <span class="blue"> eixo x</span>;
+                        </p>
+                        <p>
+                            Para determinar os pontos de interseção com o eixo x (chamados de raízes da função),
+                            fazemos:
+                        </p>
+                        <p class="centro"> <strong><span class="blue">ax<sup>2</sup> + bx + c = 0 (zero)</span></strong></p>
+                        <p>
+                            Para resolver esta equação do 2º grau podemos utilizar vários métodos, porém, o mais
+                            conhecido é
+                            a <span class="blue">Fórmula de Bhaskara</span>, dada por:
+                        </p>
+                        <p>
+                        <div class="centro">
+                            <img src="img/imagem_2022-07-14_120640886-removebg-preview.png" width="220" height="70px">
+                        </div>
+                        <span class="blue">Exemplo:</span>
+                        </p>
+                        <p>
+                            Vamos encontrar os zeros da função f(x) = x<sup>2</sup> – 5x + 6.
+                        </p>
+                        <p>
+                            Solução:
+                        </p>
+                        <p>
+                            Sendo<br>
+                            a = 1<br>
+                            b = – 5<br>
+                            c = 6
+                        </p>
+                        <p>
+                            Substituindo esses valores na fórmula de Bhaskara, temos:
+                        </p>
+                        <div id="conteiner01">
+                            <img src="img/img1.png" width="450" height="85px">
+                            <img src="img/img2.png" width="350" height="67px">
+                            <img src="img/img3.png" width="350" height="65px">
+                        </div>
+                        <p>
+                            Portanto, as raízes são 2 e 3.
+                        </p>
+                        <p>
+                            Observe que a quantidade de raízes de uma função quadrática vai depender do valor obtido
+                            pela
+                            expressão: Δ = b2 – 4. ac, o qual é chamado de discriminante.
+                        </p>
+                        <p>
+                            Assim,
+                        </p>
+                        <ul>
+                            <li>
+                                Se <span class="blue"> Δ > 0 (zero)</span>, a função terá <span class="blue"> duas raízes reais
+                                    e
+                                    distintas </span> (x1 ≠ x2), ou seja, o gráfico interceptará o eixo x em <span
+                                    class="blue">2 pontos </span>;
+                            </li>
+                            <div class="centro">
+                                <img src="img/1.png" class="imgFuncao">
+                                <p><span class="blue"> Importante: </span></p>
+                                <p>Os gráficos, podem, também, apresentar a concavidade voltada para baixo e estarem em outros quadrantes do plano cartesianon, não somente como o gráfico acima.</p>
+                                <br>
+                            </div>
+                            <li>
+                                Se <span class="blue"> Δ < 0 (zero)</span>, a função não terá <span class="blue">nenhuma raiz
+                                            real</span>, ou seja, o gráfico não interceptaráo eixo x em <span
+                                            class="blue">nenhum ponto</span>;
+                            </li>
+                            <div class="centro">
+                                <img src="img/2.png" class="imgFuncao">
+                                <p><span class="blue"> Importante: </span></p>
+                                <p>Os gráficos, podem, também, apresentar a concavidade voltada para baixo e estarem em outros quadrantes do plano cartesianon, não somente como o gráfico acima.</p>
+                                <br>
+                            </div>
+                            <li>
+                                Se <span class="blue"> Δ = 0 (zero)</span>, a função terá <span class="blue">duas raízes reais
+                                    e
+                                    iguais </span> (x1 = x2), ou seja, o gráfico interceptaráo eixo x em apenas <span
+                                    class="blue">1 ponto</span>.
+                            </li>
+                            <div class="centro">
+                                <img src="img/3.png" class="imgFuncao">
+                                <p><span class="blue"> Importante: </span></p>
+                                <p>Os gráficos, podem, também, apresentar a concavidade voltada para baixo e estarem em outros quadrantes do plano cartesianon, não somente como o gráfico acima.</p>
+                                <br>
+                            </div>
+                            <li>
+                                Os pontos de máximo (quando o gráfico possui a concavidade voltada para baixo) e de mínimo (quando o gráfico possui a concavidade voltada para cima), representam a coordenada máxima ou mínima do ponto y, ou seja, seu limite. Esses pontos também coincidem com o ponto de vértice, também chamado de ponto médio, no qual a parábola muda de sentido, já que esse ponto está exatamente no meio da parábola.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p>
+                            <strong> <span class="blue"> 3- </span> </strong> Determinar o ponto de interseção com o
+                            <span class="blue"> eixo y
+                            </span>;
+                        </p>
+                        <p> Para determinar o ponto de interseção com o eixo y, devemos observar o valor do <span
+                                class="blue">coeficiente c </span>da função, que corresponde ao valor de y na coordenada
+                            (x,
+                            y), na qual x = 0 (zero).</p>
+                    </section>
+                    <section>
+                        <p>
+                            <strong><span class="blue">4-</span></strong> Determinar o ponto de vértice:
+                        </p>
+                        <p>
+                            O ponto de vértice de uma função é correspondente ao seu <span class="blue">valor
+                                máximo</span> a função tem a
+                            concavidade voltada para baixo), ou seu <span class="blue">valor mínimo</span> a função tem
+                            a concavidade
+                            voltada para cima).
+                        </p>
+                        <p>
+                            Por meio da fórmula de Bhaskara, conseguimos determinar a forma de calcular o valor de x e
+                            de y na coordenada do ponto de vértice. Tais formas são:
+                        </p>
+                        <p class="centro">
+                            <span class="blue"> x </span>= -b/2a
+                        </p>
+                        <p class="centro">
+                            <span class="blue"> y </span>= -&Delta;/4a
+                        </p>
+                    </section>
+                    <hr class="menor">
+                    <div id="botao">
+                        <a href="https://www.geogebra.org/calculator" target="_blank"><button>
+                                <h2>Testar agora!</h2><br>
+                                <h3>Geogebra</h3>
+                            </button>
+                        </a>
+                        <p class="botaoinfo">
+                            O geogebra é um site que faz os gráficos automaticamente.<br> Clique no botão para ser
+                            redirecionado ao site.
+                        </p>
+                    </div>
+            </article>
+        </div>
+    </main>
+    <footer class="containerfooter">
+        <nav class="box-1">
+            <p class="footertitle">LuizH Consultoria</p>
+
+            <p class="footerwrite">@2017 G&B</p>
+
+            <p class="footerwrite">Consultoria especializada atendimento ao consumidor da página.</p>
+
+            <p class="footerwrite">Todos os Direitos reservados.</p>
+
+            <p class="footerwrite">Fonte: https://www.todamateria.com.br/funcao-quadratica/</p>
+        </nav>
+        <nav class="box-2">
+            <p class="footertitle">Contato</p>
+            <a href="mailto:luiz.zavatini19@gmail.com">
+                <p class="footerwrite">luiz.zavatini19@gmail.com</p>
+            </a>
+            <p class="footerwrite">+55 45 99856-8683</p>
+            <p class="footerwrite">Rua Cerro Corá, 350<br>
+                Industrial<br>
+                Toledo - Brasil<br>
+                85904-300<br>
+            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983.9918074225334!2d-53.74986033782348!3d-24.717254830766283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f395ecfef1a68b%3A0x51231ce02f6c8ccd!2sR.%20Cerro%20Cor%C3%A1%2C%20350%20-%20Vila%20Industrial%2C%20Toledo%20-%20PR%2C%2085904-300!5e0!3m2!1spt-BR!2sbr!4v1654606945855!5m2!1spt-BR!2sbr"
+                width="90%" height="37%" style="border:0; border-radius: 5px; opacity: 0.8;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </nav>
+        <nav class="box-3">
+            <p class="footertitle">Social</p>
+            <a href="https://twitter.com/HttpsNobill">
+                <p class="footerwrite">
+                    <ion-icon name="logo-twitter"></ion-icon>Twitter
+                </p>
+            </a>
+            <a href="https://www.instagram.com/luizhz_oficial/">
+                <p class="footerwrite">
+                    <ion-icon name="logo-instagram"></ion-icon>Instagram
+                </p>
+            </a>
+            <a href="https://www.facebook.com/luizhenrique.zavatinefeltrin">
+                <p class="footerwrite">
+                    <ion-icon name="logo-facebook"></ion-icon>Facebook
+                </p>
+            </a>
+
+        </nav>
+    </footer>
+</body>
+
+</html>
